@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    background-color: rgb(40, 40, 66);
+
+
+}
+
+
+
+.texto-um{
+    
+    display: flex;
+    position: relative;
+    
+
+    align-items: center;
+    margin-top: 20px;
+
+    text-align: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(40, 40, 66);
+
+   
+}
+
+.texto-um h1{
+    margin:0;
+    font-size: 20px;
+}
+
+.sininho{
+ position: absolute;
+ bottom: 30px;
+ right: 10px;
+ width: 40px;
+ height: 40px;
+  
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.content h1, p{
+    margin-top: 20px;
+}
+
+
+
+.logo{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(35, 35, 165);
+    margin-top: -20px;
+}
+
+.texto-cliente{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-size: 1.3em;
+}
+
+.caixona{
+    padding: 70px 0px;
+    text-align: center;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    top: 10px;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    
+    
+
+}
+
+.caixinha{
+   flex-grow: 2; 
+   width: 92%;
+   height: 80px;
+   background-color: rgb(40, 40, 66);
+   align-items: center;
+   display: flex;
+   justify-content: center;
+   font-size: 8px;
+   font-weight: bolder;
+   font-family: Arial, Helvetica, sans-serif;
+
+   border-radius: 6px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+   margin: 8px;
+
+}
+
+.semana{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    width: 90%;
+    top: 300px;
+    margin: 1px 0px 0px 20px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 10px solid white;
+    border-radius: 6px;
+    }
+
+.semana p{
+    padding: 1px 0px 0px 20px;
+    margin: 2px;
+    font-size: 1.2em;
+}
+
+
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.dias{
+    display: flex;
+    justify-content: space-around;
+    
+}
